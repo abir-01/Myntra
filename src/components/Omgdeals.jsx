@@ -63,9 +63,9 @@ const Omgdeals = () => {
 
                     <div className='min-w-[140px]'><img src={asset31} alt="" className="w-full" /></div>
 
-                    <div className='min-w-[140px]'><img src={asset33} alt="" className="w-full" /></div>
+                    <div className='min-w-[140px]'><img src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/4/24/f401e731-c14b-47f3-8f5f-49a1a6776d091682337673541-Bestselling_Lingerie_by_top_brands_STARTING_-_199_-499-_-_Dress.jpg" alt="" className="w-full" /></div>
 
-                    <div className='min-w-[140px]'><img src={asset34} alt="" className="w-full" /></div>
+                    <div className='min-w-[140px]'><img src={asset33} alt="" className="w-full" /></div>
 
 
 
