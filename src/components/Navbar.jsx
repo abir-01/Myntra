@@ -17,7 +17,7 @@ export default function Navbar() {
     return (
         <div style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}>
             <header className="bg-transparent sticky  mx-auto " >
-                <nav className="mx-auto  flex max-w-10xl items-center justify-between py-6 " aria-label="Global">
+                <nav className="mx-auto  flex max-w-10xl items-center justify-between  " aria-label="Global">
                     <div className="flex w-[0] lg:flex-1 justify-between items-center lg:mr-8">
                      
                             <Link to="/" className="m-1.5 p-1.5 flex justify-center items-center">
@@ -49,7 +49,7 @@ export default function Navbar() {
                     
                    
                 </div> */}
-                    <div className="flex lg:hidden w-full lg:w-2/3 justify-around">
+                    <div className="flex lg:hidden w-full lg:w-2/3 justify-around ">
                         {/* <div className=" flex w-[30%] justify-evenly"> */}
                         <Link to="/" className="m-1.5 p-1.5 flex justify-center items-center">
                             {/* <span Your Company</span> */}
@@ -98,15 +98,15 @@ export default function Navbar() {
                     </button> */}
 
 
-                        <div className=" relative mx-auto rounded-lg border-2 border-gray-300 text-gray-600 px-5  w-[70%]" >
+                        <div className=" relative mx-auto rounded-lg border-1 text-gray-600 px-5  w-[70%] bg-gray-100" >
                             <button type="submit" className="absolute left-0 top-0  px-4 h-full my-auto">
                                 <SearchIcon />
                             </button>
-                            <input className="ps-8 w-full  bg-white h-full py-auto  text-lg focus:outline-none"
+                            <input className="ps-8 w-full  bg-transparent h-full py-auto  text-lg focus:outline-none"
                                 type="search" name="search" placeholder="Search" />
                         </div>
 
-                        <div className=" flex w-[30%] justify-evenly">
+                        <div className=" flex w-[30%] justify-evenly pe-8">
                             <div className='flex flex-col justify-center items-center'>
                                 <Person2OutlinedIcon />
                                 Profile
