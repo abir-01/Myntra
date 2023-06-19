@@ -20,13 +20,13 @@ export default function Navbar() {
                 <nav className="mx-auto  flex max-w-10xl items-center justify-between py-6 " aria-label="Global">
                     <div className="flex w-[0] lg:flex-1 justify-between items-center lg:mr-8">
                      
-                            <a to="/Myntra/" className="m-1.5 p-1.5 flex justify-center items-center">
+                            <Link to="/" className="m-1.5 p-1.5 flex justify-center items-center">
                                 {/* <span Your Company</span> */}
                                 <img className="h-20 w-auto " style={{
                                     display: 'inline'
                                 }} src="https://images.indianexpress.com/2021/01/myntra.png" alt="" />
                                 {/* <span className='mx-2 text-4xl text-white'></span> */}
-                            </a>
+                            </Link>
                       
                         
                         <div className="flex justify-between w-full lg:visible invisible">
@@ -51,13 +51,13 @@ export default function Navbar() {
                 </div> */}
                     <div className="flex lg:hidden w-full lg:w-2/3 justify-around">
                         {/* <div className=" flex w-[30%] justify-evenly"> */}
-                        <a to="/Myntra/" className="m-1.5 p-1.5 flex justify-center items-center">
+                        <Link to="/" className="m-1.5 p-1.5 flex justify-center items-center">
                             {/* <span Your Company</span> */}
                             <img className="h-20 w-auto " style={{
                                 display: 'inline'
                             }} src="https://images.indianexpress.com/2021/01/myntra.png" alt="" />
                             {/* <span className='mx-2 text-4xl text-white'></span> */}
-                        </a>
+                        </Link>
                         <div className='flex flex-col justify-center items-center'>
                             <Person2OutlinedIcon />
                             Profile
