@@ -45,10 +45,8 @@ export default function Navbar() {
                         </div>
 
                     </div>
-                    {/* <div className="flex lg:flex-1 justify-between">
                     
-                   
-                </div> */}
+                    
                     <div className="flex lg:hidden w-full lg:w-2/3 justify-around ">
                         {/* <div className=" flex w-[30%] justify-evenly"> */}
                         <Link to="/" className="m-1.5 p-1.5 flex justify-center items-center">
@@ -66,10 +64,10 @@ export default function Navbar() {
                             <FavoriteBorderOutlinedIcon />
                             Wishlist
                         </div>
-                        <div className='flex flex-col justify-center items-center'>
+                        <Link to="/bag" className='flex flex-col justify-center items-center'>
                             <ShoppingBagOutlinedIcon />
                             Bag
-                        </div>
+                        </Link>
                         {/* </div> */}
                         <button
                             type="button"
@@ -80,24 +78,10 @@ export default function Navbar() {
                             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                         </button>
                     </div>
-                    {/* <Popover.Group className="hidden lg:flex lg:gap-x-12">
-                    
-
                     
                     
-                </Popover.Group> */}
                     <div className="hidden ps-8 lg:flex lg:flex-1 lg:justify-around ">
-                        {/* <a to="#" className="text-sm font-semibold leading-6 text-gray-100 px-6 pt-3 pb-[6px] text-xl">
-                        Log in
-                    </a>
-                    <button
-                        type="button"
-                        className="inline-block rounded-full border-2 border-primary-100 px-6 pt-2 pb-[6px]  font-medium uppercase leading-normal text-gray-100 transition duration-150 ease-in-out hover:border-primary-accent-100 hover:bg-neutral-500 hover:bg-opacity-10 focus:border-primary-accent-100 focus:outline-none focus:ring-0 active:border-primary-accent-200 dark:text-primary-100 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10 text-xl"
-                        data-te-ripple-init>
-                        Join
-                    </button> */}
-
-
+                        
                         <div className=" relative mx-auto rounded-lg border-1 text-gray-600 px-5  w-[70%] bg-gray-100" >
                             <button type="submit" className="absolute left-0 top-0  px-4 h-full my-auto">
                                 <SearchIcon />
@@ -115,10 +99,10 @@ export default function Navbar() {
                                 <FavoriteBorderOutlinedIcon />
                                 Wishlist
                             </div>
-                            <div className='flex flex-col justify-center items-center'>
+                            <Link to="/bag" className='flex flex-col justify-center items-center'>
                                 <ShoppingBagOutlinedIcon />
                                 Bag
-                            </div>
+                            </Link>
                         </div>
 
                     </div>

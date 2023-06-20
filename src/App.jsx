@@ -11,6 +11,9 @@ import Men from './components/Men'
 import Women from './components/Women'
 import Homeandliving from './components/Homeandliving'
 import Kids from './components/Kids'
+import Apparels from './components/Apparels'
+import Apparel from './components/Apparel'
+import Bag from './components/Bag'
 
 const App = () => {
   return (
@@ -29,6 +32,9 @@ const App = () => {
         <Route exact path='/women' element={<Women/>} />
         <Route exact path='/kids' element={<Kids/>} />
         <Route exact path='/homeandliving' element={<Homeandliving />} />
+        <Route exact path='/apparels' element={<Apparels />} />
+        <Route exact path='/apparel' element={<Apparel />} />
+        <Route exact path='/bag' element={<Bag />} />
 
       </Routes>
 

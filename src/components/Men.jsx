@@ -1,5 +1,6 @@
 import React from 'react'
 import men from '../assets/men.jpeg'
+import { Link } from 'react-router-dom'
 const Men = () => {
     return (
         <>
@@ -12,7 +13,7 @@ const Men = () => {
 
                 <div className='min-w-[140px]'><img src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/4/24/da3b4b93-edd7-4024-b71f-bc21a63c5c791682337673575-Chupps-_Neemans_-_more_Sustainable_Footwear_Min_30_Off.png" alt="" className="w-full" /></div>
 
-                <div className='min-w-[140px]'><img src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/4/24/a8fc4f2b-569a-45e5-ac43-aea6b42a02bc1682337673602-Crafted_street_wear_styles___High_star-_Dennis_Lingo_-_more___S.jpg" alt="" className="w-full" /></div>
+                <Link to='/apparels' className='min-w-[140px]'><img src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/4/24/a8fc4f2b-569a-45e5-ac43-aea6b42a02bc1682337673602-Crafted_street_wear_styles___High_star-_Dennis_Lingo_-_more___S.jpg" alt="" className="w-full" /></Link>
 
                 <div className='min-w-[140px]'><img src="https://assets.myntassets.com/w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/4/24/29c26e79-7780-4993-8082-e5b8640754191682337673614-Crocs_STARTING_1099_-2499-.png" alt="" className="w-full" /></div>
 
