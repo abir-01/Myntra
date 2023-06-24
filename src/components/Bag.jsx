@@ -8,6 +8,7 @@ const Bag = () => {
     const dispatch = useDispatch();
 
     const myState = useSelector((state) => state.addremoveitem)
+    // const first = myState.shift();
     // const [items, setitems] = useState(myState)
     // console.log(myState);
 
@@ -19,7 +20,9 @@ const Bag = () => {
             <div className="w-1/2 flex flex-col">
                 {myState.map((item, index) => (
                     // console.log("index = ",index),
-                    <Baglist item={ item} index={index} />
+                    // console.log(index,item),
+                    
+                    index!==0 && <Baglist item={ item} index={index} />
                 ))}
             </div>
             <div className="w-1/2"></div>

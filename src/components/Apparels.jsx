@@ -18,6 +18,7 @@ const Apparels = () => {
             off: "60",
             rating: "2.7",
             ratings: "12",
+            // key:1,
             poster: "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19047398/2022/7/11/0b33ce4b-34c3-4303-b657-c88ac0c67a8d1657525874817Shirts1.jpg"
         },
         {
@@ -27,7 +28,8 @@ const Apparels = () => {
             originalprice: "1859",
             off: "78",
             rating: "3",
-            ratings:"19",
+            ratings: "19",
+            // key:"2",
             poster:"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/19488582/2022/8/12/85f69563-f0d4-4cbb-b712-e8ec73331a101660310792989HighStarMenBlueSlimFitJeans1.jpg"
         },
         {
@@ -37,7 +39,8 @@ const Apparels = () => {
             originalprice: "999",
             off: "60",
             rating: "2.7",
-            ratings:"12",
+            ratings: "12",
+            // key: "2",
             poster:"https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/6633393/2022/4/11/6097e51e-5391-4d63-91a8-13ea308ef13d1649616810915HubberholmeMenGreyMelangeSolidSlimFitJoggers1.jpg"
         },
         {

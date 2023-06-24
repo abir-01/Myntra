@@ -6,14 +6,14 @@ export const setitem = (item) => {
         
 }
 
-export const additem = (item,size) => {
+export const additem = (item) => {
 
     // console.log("Action = ", item);
 
     return {
         type: "ADDITEM",
         item,
-        size
+        // size
     }
 }
 export const removeitem = (index) => {

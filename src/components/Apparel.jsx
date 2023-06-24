@@ -75,7 +75,10 @@ const Apparel = () => {
                         </div>
                         <div className="flex py-8 items-center ">
                             <button onClick={() => {
-                                isactive !== '0'&& dispatch(additem(myState, isactive))
+                                let item = myState;
+                                item.size = isactive;
+                                // console.log("item = ", item);
+                                isactive !== '0'&& dispatch(additem(item))
                             }}
 
                                 className="border-2 py-4 text-xl text-white px-16 bg-pink-600 flex items-center">
